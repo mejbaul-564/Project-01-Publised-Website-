@@ -1,0 +1,324 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a:hover,
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Default setting */
+#header {
+    position: fixed;
+    width: 100%;
+    padding: 31px;
+    background-color: #f5f9f9;
+}
+
+#header.container.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 39px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2d3950 !important;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* header section end */
+#banner {
+    background: url(../Images/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding-top: 214px;
+    padding-bottom: 86px;
+}
+
+#banner.content {}
+
+.content h1 {
+    font-size: 120px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.hr-1 {
+    margin: 0 auto;
+    width: 600px;
+    color: #15a3f9;
+    opacity: 1;
+    margin-top: 35px;
+    margin-bottom: 42px;
+}
+
+.content p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 67px;
+}
+
+.brn-btn {
+    display: inline-block;
+}
+
+.brn-btn-a {
+    border: 2px solid #15a3f9;
+    padding: 20px 35px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 176px;
+}
+
+.b {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+/* <!-- banner end here --> */
+#simple {
+    padding-top: 81px;
+    padding-bottom: 105px;
+    background-color: #f5f9f9;
+}
+
+.sim-h3 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #2d3950;
+    margin-bottom: 30px;
+}
+
+.sim-p {
+    font-size: 20px;
+    color: #999999;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+/* <!-- Simple end here --> */
+#Showcase {
+    padding-top: 63px;
+    padding-bottom: 67px;
+}
+
+.content-icon {
+    font-size: 40px;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #51a1d3 50%, #0798f1 50%);
+}
+
+.content-text {
+    padding-top: 32px;
+    margin: 0 30px;
+}
+
+.content-text h4 {
+    color: #2d3950;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 26px;
+}
+
+.content-text p {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+/*  <!-- Showcase end here --> */
+#protfolio {
+    background-color: #f5f9f9;
+    padding-top: 82px;
+    padding-bottom: 115px;
+}
+
+.con-head h3 {
+    font-size: 41px;
+    font-weight: 400;
+    color: #2d3950;
+}
+
+.con-head p {
+    color: #2d3950;
+    font-size: 15px;
+    margin-top: 22px;
+    margin-bottom: 82px;
+}
+
+.pro-area {
+    position: relative;
+    overflow: hidden;
+}
+
+.pro-icon {
+    position: absolute;
+    top: -100%;
+    /* top: 0; */
+    /* left: 0; */
+    left: -100%;
+    background-color: rgba(21, 162, 247, 0.9);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.3s;
+    /* way 2 */
+    /* transform: scale(0); */
+}
+
+.pro-icon a {
+    color: #ffff;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.pro-area:hover .pro-icon {
+    top: 0;
+    left: 0;
+    /* transform: scale(1); */
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+/*     <!-- protfolio end  here-->*/
+#stay {
+    background: url(/Images/form-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.stay-overlay {
+    padding-top: 72px;
+    padding-bottom: 108px;
+    background-color: rgba(42, 53, 72, 0.70);
+}
+
+.head-sec h3 {
+    color: #ffffff;
+    font-size: 41px;
+}
+
+.head-sec p {
+    color: #999999;
+    margin-top: 20pt;
+    margin-bottom: 47px;
+    font-size: 15px;
+}
+
+.form-01 {
+    width: 554px;
+    margin: 0 auto;
+}
+
+.form-01 .mb-20 .form-control {
+    display: block;
+    width: 100%;
+    padding: 20px 0px 20px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #999999;
+    background-color: inherit;
+    background-clip: padding-box;
+    border: 2px solid #999999;
+
+    border-radius: 0.20rem;
+}
+
+.btn-inline {
+    display: inline;
+}
+
+.btn-justify {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* 2d394f
+op-90 */
+/* form end here */
+#footer {
+    background-color: #0798f1;
+    padding: 20px;
+}
+
+.sec-foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .footer-area .text .icon {
+    display: inline !important;
+}
+
+.icon a {
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+}
